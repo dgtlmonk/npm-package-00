@@ -19,3 +19,15 @@ console.log(d.say('mooo'))
 ```
 
 > $ npm link @dgtlmonk/pack-00 && node script.js
+
+
+### Via node
+> $ npm i github:dgtlmonk/npm-package-00
+
+
+```
+import { say } from "@dgtlmonk/pack-00"
+
+console.log(say('heyyy'));
+// heyyy
+```
