@@ -21,7 +21,7 @@ console.log(d.say('mooo'))
 > $ npm link @dgtlmonk/pack-00 && node script.js
 
 
-### Via node
+### as npm package
 > $ npm i github:dgtlmonk/npm-package-00
 
 
