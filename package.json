@@ -1,19 +1,24 @@
 {
-  "name": "@dgtlmonk/pack-00",
-  "version": "1.0.0",
-  "description": "newbie package",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dgtlmonk/npm-package-00.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dgtlmonk/npm-package-00/issues"
-  },
-  "homepage": "https://github.com/dgtlmonk/npm-package-00#readme"
+    "name": "@dgtlmonk/pack-00",
+    "private": false,
+    "version": "1.0.0",
+    "description": "newbie package",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dgtlmonk/npm-package-00.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dgtlmonk/npm-package-00/issues"
+    },
+    "homepage": "https://github.com/dgtlmonk/npm-package-00#readme",
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
+    }
 }
