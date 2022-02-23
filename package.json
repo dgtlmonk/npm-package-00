@@ -17,8 +17,4 @@
         "url": "https://github.com/dgtlmonk/npm-package-00/issues"
     },
     "homepage": "https://github.com/dgtlmonk/npm-package-00#readme",
-    "publishConfig": {
-        "access": "public",
-        "registry": "https://registry.npmjs.org/"
-    }
 }
